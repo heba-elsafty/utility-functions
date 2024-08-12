@@ -35,12 +35,12 @@ This function takes the original filename and the new filename as arguments, ren
 
 Another useful function is `clx`, a utility for conditionally joining class names together.
 
-\```typescript
+```typescript
 import { clx } from './utils/clx';
 
 const className = clx('btn', { 'btn-primary': isActive, 'btn-disabled': isDisabled });
 console.log(className); // Output: "btn btn-primary"
-\```
+```
 
 ## 🎯 Benefits of Using Utility Functions
 
