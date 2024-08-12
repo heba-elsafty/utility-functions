@@ -12,7 +12,7 @@ Utility Functions is a modular and extensible library of commonly used functions
 To integrate Utility Functions into your project using Git Submodules:
 
 ```
-git submodule add https://github.com/yourusername/utility-functions.git utils
+git submodule add https://github.com/heba-elsafty/utility-functions.git utils
 ```
 
 This will clone the utility functions repository into a `utils` directory in your project, allowing you to import and use the functions directly.
