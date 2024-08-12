@@ -1,8 +1,15 @@
 {
   "name": "@spark-ui-components/utility-functions",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/heba-elsafty/utility-functions.git",
   "author": "heba-elsafty <heba.m.elsaft@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0"
+  }
 }
