@@ -23,11 +23,11 @@ This will clone the utility functions repository into a `utils` directory in you
 
 One of the available functions is `renameCssFile`, which allows you to rename CSS files dynamically in your build process.
 
-\```typescript
+```typescript:
 import { renameCssFile } from './utils/renameCssFile';
 
 renameCssFile('fileName.module.css', 'fileName.module.min.css');
-\```
+```
 
 This function takes the original filename and the new filename as arguments, renaming the file accordingly.
 
