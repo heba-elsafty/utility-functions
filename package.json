@@ -1,0 +1,8 @@
+{
+  "name": "@spark-ui-components/utility-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/heba-elsafty/utility-functions.git",
+  "author": "heba-elsafty <heba.m.elsaft@gmail.com>",
+  "license": "MIT"
+}
