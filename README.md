@@ -17,6 +17,27 @@ git submodule add https://github.com/heba-elsafty/utility-functions.git utils
 
 This will clone the utility functions repository into a `utils` directory in your project, allowing you to import and use the functions directly.
 
+## 🔄 Managing Git Submodules
+
+### ⬆️ Updating the Submodule 
+If you make any updates to the shared repository, you can update the Submodule in your projects using the following commands:
+
+ ```
+ git submodule update --remote
+ ```
+
+ ### 🗑️ Removing the Submodule (if necessary)
+
+If you decide to remove the Submodule at any time, you can do so with the following commands:
+
+```
+git submodule deinit -f utils
+git rm -f utils
+git commit -m "Removed Submodule"
+rm -rf .git/modules/utils
+```
+   
+
 ## 🚀 How to Use
 
 ### Example: Rename CSS Files Dynamically
