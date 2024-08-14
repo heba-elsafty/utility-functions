@@ -90,8 +90,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **`clx(...classnames: (string | string[] | { [key: string]: boolean })[]): string`** - Conditionally joins class names together.
 - *More to come as the library evolves...*
 
----
-
-## 🤝 Support
-
-If you encounter any issues or have questions, please open an issue on GitHub. We're here to help!
