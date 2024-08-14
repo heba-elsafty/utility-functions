@@ -70,9 +70,6 @@ console.log(className); // Output: "btn btn-primary"
 - **Easier Collaboration:** Share your utility functions across teams or projects effortlessly.
 - **Scalability:** Easily extend the library with new functions as your projects grow.
 
-## 📚 Documentation
-
-Each function in this repository is well-documented with examples and usage instructions. Explore the `/utils` directory to find the utilities you need, along with their respective documentation.
 
 ## 🛠️ Contributing
 
